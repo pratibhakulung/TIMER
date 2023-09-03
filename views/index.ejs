@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap"
+      rel="stylesheet"
+    />
+    <title>TimerWatch</title>
+  </head>
+  <body>
+    <div class="pomodoro">
+      <div class="heading-title">
+        Spring Tales
+        <p class="sub-title">enjoy your every moment</p>
+      </div>
+      <div class="timerdisplay">
+        <div class="youtube">
+          <iframe
+            width="560"
+            height="300"
+            src="https://www.youtube.com/embed/H_dq0hPR9Cc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="counter">
+          <label id="mins">00</label>
+          :
+          <label id="secs">00</label><label class="space"></label>
+          <label id="nsession">0</label> : sessions
+        </div>
+
+        <div class="input">
+          <input type="text" id="fmin" placeholder="Resting time in minutes" />
+          <!-- <label class="labels">Focus Time </label> -->
+
+          <input type="text" id="rmin" placeholder=" Resting time in minutes" />
+          <!-- <label class="labels">Resting Time </label> -->
+
+          <input type="text" id="session" placeholder="No. of sessions" />
+          <!-- <label class="labels">Sessions </label> -->
+
+          <button id="submit">Submit</button>
+        </div>
+        <br />
+        <br />
+        <div>
+          <div class="timercontrol">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="restart">Restart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascripts/main.js"></script>
+  </body>
+</html>

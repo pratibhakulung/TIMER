@@ -1,0 +1,117 @@
+div{
+    margin:auto;
+}
+body{
+    background-image: url("background.jpg");
+}
+div.heading-title{
+    height: 330px;
+    width: 369px;
+    left: 469px;
+    top: 25px;
+    border-radius: nullpx;
+    font-family: 'Just Me Again Down Here';
+    font-size: 81px;
+    font-weight: 400;
+    
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    
+    }
+p.sub-title{
+    
+        /* height: 400px;
+        width: 369px;
+        left: 469px;
+        top: 25px;
+        border-radius: nullpx; */
+        font-family: 'Just Me Again Down Here';
+        font-size: 29px;
+        font-weight: 400;
+        
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        
+        }
+
+
+
+div.pomodoro{
+    text-align: center;
+    margin-top: 1px;
+    padding: 0px;
+}
+
+div.counter{
+    position: absolute;
+    width: 421px;
+    height: 100px;
+    left: 439px;
+    top: 185px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: rgba(217, 217, 217, 0.76);
+    border-radius: 31px;
+    border-right-style: dashed;
+}
+
+input{
+position: static;
+width: 196px;
+height: 44px;
+left: -146px;
+top: 0px;
+margin: auto;
+text-align:center;
+background: #D9D9D9;
+border: 1px solid rgba(65, 46, 46, 0.51);
+border-radius: 17px;
+}
+
+button{
+    position: static;
+width: 125px;
+height: 65px;
+left: 0px;
+top: 0px;
+
+background: rgba(217, 217, 217, 0.44);
+border-radius: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+
+/* label.labels{
+    position: static;
+width: 201px;
+height: 26px;
+left: 57px;
+top: 4px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+} */
+
+div.youtube{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+label.space{
+    width:5px;
+}
